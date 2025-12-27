@@ -13,7 +13,7 @@ body{
     center/cover fixed no-repeat;
 }
 
-/* NAVIGATION - Opdateret til samme layout som About Me og CV */
+
 .nav-bar{
   position:sticky; 
   top:0; 
@@ -28,7 +28,7 @@ body{
 }
 
 .nav-bar li {
-  margin: 0 20px;  /* Samme mellemrum som de andre sider */
+  margin: 0 20px;  
 }
 
 .nav-bar a{ 
@@ -41,14 +41,14 @@ body{
   display: block;
 }
 
-/* Active og hover states der matcher de andre sider */
+
 .nav-bar a.active,
 .nav-bar a:hover{ 
   background:rgba(34,211,238,.15);
   color: var(--accent);
 }
 
-/* Hvide links til alle a-tags */
+
 a {
   color: white !important;
   text-decoration: none;
@@ -68,7 +68,7 @@ main{ padding:40px 20px }
 @media (max-width:640px){ 
   .grid{ grid-template-columns:1fr } 
   
-  /* Responsiv navigation */
+  
   .nav-bar {
     flex-direction: column;
     gap: 10px;
@@ -118,7 +118,7 @@ main{ padding:40px 20px }
   color: var(--accent);
 }
 
-/* Footer styling for konsistens */
+
 footer {
   text-align: center;
   padding: 2rem;
