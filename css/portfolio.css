@@ -26,6 +26,24 @@ body {
     center/cover fixed no-repeat;
 }
 
+h1 {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 2.5rem;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 2rem;
+}
+
+section {
+    text-align: center;
+    margin: 2rem auto;
+    max-width: 600px; /* så det ikke bliver for bredt */
+}
+
 a {
   color: white !important;
   text-decoration: none;
