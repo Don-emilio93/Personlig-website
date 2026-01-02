@@ -22,7 +22,6 @@ body {
     radial-gradient(800px 400px at 10% -10%, rgba(34,211,238,.25), transparent 60%),
     radial-gradient(800px 400px at 110% 0%, rgba(167,139,250,.2), transparent 60%),
     linear-gradient(180deg, var(--bg), var(--bg) 60%),
-    url("https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1600&auto=format&fit=crop")
     center/cover fixed no-repeat;
 }
 
@@ -136,7 +135,6 @@ main {
   height: 140px;
   background:
     linear-gradient(135deg, rgba(34,211,238,.35), rgba(167,139,250,.35)),
-    url("https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1200&auto=format&fit=crop")
     center/cover no-repeat;
 }
 
